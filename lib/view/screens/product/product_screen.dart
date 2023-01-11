@@ -22,7 +22,7 @@ class ProductScreen extends StatelessWidget {
             child: SizedBox(
               height: 80,
               child: InkWell(
-                onTap: () => Get.to(() => const NewProductScreen()),
+                onTap: () => Get.to(() => NewProductScreen()),
                 child: Card(
                   color: Colors.black,
                   child: Row(

@@ -14,11 +14,14 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return GetMaterialApp(
-      title: 'Flutter Demo',
+      title: 'Ecommerce Admin',
       theme: theme(),
       home: const HomeScreen(),
       getPages: [
-        GetPage(name: '/products', page: (() => ProductScreen())),
+        GetPage(
+          name: '/products',
+          page: (() => ProductScreen()),
+        ),
       ],
     );
   }
